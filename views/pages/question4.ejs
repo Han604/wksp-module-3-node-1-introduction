@@ -1,12 +1,6 @@
-<!DOCTYPE html>
-<head>
-    <title>Node: Workshop 1</title>
-    <link rel="stylesheet" href="./css/styles.css">
-</head>
+<%- include('./stylesheet') %>
 <body>
-    <header>
-        <h1>Node: Workshop 1</h1>
-    </header>
+    <%- include('./header') %> 
     <div class='main'>
         <h2>Part 1</h2>
         <div class='content'>
@@ -14,7 +8,9 @@
             <div class='box answer'>
                 <h3>Answer</h3>
                 <!-- render answer here -->
-                
+                <p><%- popularGirlNames[0] %> </p>
+                <p><%- popularGirlNames[1] %> </p>
+                <p><%- popularGirlNames[2] %> </p>
             </div>
         </div>
     </div>
